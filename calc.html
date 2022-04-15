@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 style="margin-bottom: 20px;">Calculator</h2>
+        <div class="calculator">
+            <div class="items"><input id="input" type="text"></div>
+            <div class="items"><button onclick="clearit()" >C</button></div>
+            <div class="items"><button>+ / -</button></div>
+            <div class="items"><button onclick="entered('%')">%</button></div>
+            <div class="items"><button onclick="entered('/')" >/</button></div>
+            <div class="items"><button onclick="entered('7')">7</button></div>
+            <div class="items"><button onclick="entered('8')">8</button></div>
+            <div class="items"><button onclick="entered('9')" >9</button></div>
+            <div class="items"><button onclick="entered('*')" >x</button></div>
+            <div class="items"><button onclick="entered('4')" >4</button></div>
+            <div class="items"><button onclick="entered('5')" >5</button></div>
+            <div class="items"><button onclick="entered('6')" >6</button></div>
+            <div class="items"><button onclick="entered('-')" >-</button></div>
+            <div class="items"><button onclick="entered('3')" >3</button></div>
+            <div class="items"><button onclick="entered('2')" >2</button></div>
+            <div class="items"><button onclick="entered('1')" >1</button></div>
+            <div class="items"><button onclick="entered('+')" >+</button></div>
+            <div class="items"><button onclick="entered('0')" >0</button></div>
+            <div class="items"><button onclick="entered('.')" >.</button></div>
+            <div class="items"><button onclick="result()" >=</button></div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+
+</html>
